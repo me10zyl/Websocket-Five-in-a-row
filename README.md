@@ -5,10 +5,7 @@ A HTML5 online Game which use WebSocket protocol. The front page use the Bootstr
 Deploy
 -------
 ####About Client
-```
-	Change the **Websocket** connection address(in client/js/init.js),default **ws://zyl-me.xicp.net:1234/WebSocket/five**
-```
-####关于服务端
-```
-	Put the WebRoot\* into *$CATALINA_HOME*\webapps\WebSocket
-```
+Change the WebSocket connection address(in client/js/init.js),default `ws://zyl-me.xicp.net:1234/WebSocket/five`
+
+####About Server
+Put the `WebRoot/*` into `$CATALINA_HOME/webapps/WebSocket`
