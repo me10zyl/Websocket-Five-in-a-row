@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>五子棋</title>
+    <link rel="shortcut icon" href="images/chessboard.png">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+</head>
+<body>
+<section class="container" id="gameSection">
+    <div style="margin-left: 450px">
+        <h1>五子棋</h1>
+    </div>
+    <div style="margin-left: 50px">
+        <div class="row">
+            <div class="col-md-2">
+                <div>
+                    <img src="images/11.gif">
+                </div>
+                <div>
+                    <span>分数:555</span>
+                    <span id="myready">
+                    </span>
+
+                    <div style="margin-top: 15px;font-size: 12px;font-family: '幼圆';font-weight: bold;">幼儿园</div>
+                </div>
+                <div id="other">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <canvas id="bg" width="551" height="550" style="position:absolute">
+                </canvas>
+                <canvas id="fg" width="551" height="550" style="position:absolute;">
+                </canvas>
+            </div>
+            <div class="col-md-2">
+                <div class="panel panel-default" style="height:550px;overflow:auto">
+                    <div class="panel-body" id="chatBox">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8" style="text-align: center;">
+                <div id="btnStart" style="margin-left: 430px;"></div>
+            </div>
+            <div class="col-md-2">
+                <div class="input-group">
+                    <input class="form-control" type="text" id="msg">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" id="btnSend">发送</button>
+                </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <audio>
+    </audio>
+</section>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="dist/js/bootstrap.js"></script>
+<script src="js/preload.js"></script>
+<script src="js/dataType.js"></script>
+<script src="js/Point.js"></script>
+<script src="js/Colrow.js"></script>
+<script src="js/Chess.js"></script>
+<script src="js/init.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

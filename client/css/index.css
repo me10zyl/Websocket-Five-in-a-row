@@ -1,0 +1,18 @@
+#gameSection
+{
+    margin-bottom: 10px;
+}
+#btnStart{
+    margin: 0;
+    padding: 0;
+    background: url("../images/start.png") no-repeat;
+    width: 80px;
+    height: 42px;
+}
+@font-face {
+    font-family: mzd;
+    src: url('../font/mzd.ttf');
+}
+.invisible{
+    visibility: hidden;
+}
